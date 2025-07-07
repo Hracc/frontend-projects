@@ -1,0 +1,74 @@
+.sidebar {
+    background-color: #35293e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    padding: 0.3em;
+
+    @media (min-width: 767px) {
+        flex: 0 0 250px;
+        min-height: 100vh;
+    }
+
+    nav {
+        .percent {
+            color: #d99dff;
+            margin-bottom: 0.5em;
+        }
+
+        .progress {
+            background-color: #f7fff4;
+            height: 0.6em;
+            margin-bottom: 0.5em;
+            width: 100%;
+
+            .line {
+                background-color: #a450d4;
+                margin-bottom: 0.5em;
+                height: 0.6em;
+            }
+        }
+
+        .clearbtn {
+            border: none;
+            background-color: rgb(160, 25, 25);
+            color: #f7fff4;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1em;
+            margin-bottom: 0.5em;
+            padding: 0.4em;
+            width: 100%;
+
+            &:hover {
+                background-color: rgb(135, 135, 135);
+            }
+
+            &:active {
+                background-color: rgb(91, 57, 130);
+            }
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin-bottom: 1em;
+                padding: 0.5vh;
+
+                a {
+                    color: #f7fff4;
+                    text-decoration: none;
+                }
+
+                &.selected-link a {
+                    text-decoration: underline;
+                }
+
+                &.read {
+                    background-color: #a450d4;
+                    color: #232923;
+                }
+            }
+        }
+    }
+}

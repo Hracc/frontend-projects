@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/headerStyle.css">
+    <link rel="stylesheet" type="text/css" href="../style/messagePageStyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Новости по ОВР Л/р №2</h1>
+    </header>
+    <div class="flex-container">
+        <div class="container">
+            <div class="title">
+                <h2>
+                    <%= message.messsage_title%>
+                </h2>
+            </div>
+            <div class="date">
+                <p> Опубликовано: <%= message.message_date_create%></p>
+            </div>
+            <div class="text">
+                <p>
+                <%= message.messsage_text%>
+                </p>
+            </div>
+            <div class="back">
+                <a href="/">На главную страницу</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+@media screen {
+    .main-content {
+        @media (min-width: 767px) {
+            flex: 1;
+        }
+
+        padding: 20px;
+        font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.05em;
+            word-wrap: break-word;
+        }
+
+        .speaking {
+            button {
+                background-color: rgb(151, 71, 212);
+                border: none;
+                color: rgb(238, 238, 238);
+                font-size: 1em;
+                font-weight: bold;
+                margin-right: 0.5em;
+                margin-bottom: 1.5em;
+                padding: 0.6em;
+            }
+        }
+
+        .finish {
+            background-color: rgb(112, 33, 149);
+            border: none;
+            color: rgb(238, 238, 238);
+            font-size: 1em;
+            font-weight: bold;
+            margin-top: 1.5em;
+            padding: 0.6em;
+        }
+    }
+}

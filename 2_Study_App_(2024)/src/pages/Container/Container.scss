@@ -1,0 +1,6 @@
+.container {
+    @media (min-width: 767px) {
+        display: flex;
+        height: 100%;   
+    }
+}
