@@ -22,6 +22,10 @@ npm run serve
 ```
 3. Перейти по ссылке http://localhost:8080/
 
+**Вид страницы**:
+![1_1](https://github.com/Hracc/frontend-projects/blob/main/img/1_1.png)
+
+![1_2](https://github.com/Hracc/frontend-projects/blob/main/img/1_2.png)
 ## №2 "React_Web_Geolocation_And_Speech (2024)"
 **Описание**: Работа для ознакомления с с Web Geolocation и Web Speech
 
@@ -33,6 +37,10 @@ npm run dev
 ```
 3. Перейти по ссылке http://localhost:5173/
 
+**Вид страницы**:
+![2_1](https://github.com/Hracc/frontend-projects/blob/main/img/2_1.png)
+
+![2_2](https://github.com/Hracc/frontend-projects/blob/main/img/2_2.png)
 ## №3 "News (2024)"
 **Описание**: Работа для ознакомления  ExpressJS и подключением PostgreSQL
 
